@@ -1,0 +1,159 @@
+/* All css is here  */
+
+/* universal css */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+/* header detail on fire  */
+
+.header-detail{
+    display: flex;
+    padding: 20px 50px;
+    margin: 20px 90px;
+    border-radius: 30px;
+    background-color: black;
+}
+/* header information  */
+.header-info{
+    padding: 70px 10px 0px 50px ;
+    color: white;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+.header-info h1{
+    font-size: 65px;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+}
+.header-info p{
+    font-size: 14px;
+    margin-bottom: 26px;
+    word-spacing: 2px;
+}
+/* watch button css  */
+.watch-button{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgb(232, 7, 7);
+}
+/* header img css */
+.header-banner{
+    margin-left: 110px;
+}
+.header-banner img{
+    width: 500px;
+    height: 600px ;
+}
+/* side  part  */
+.main-body{
+    display: flex;
+}
+/* side news details  */
+.side-news{
+    display: flex;
+    width: 320px;
+    height: 295px;
+    padding: 30px 30px 0px 30px;
+    margin: 130px 0px 0px 90px;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: black;
+}
+.side-button{
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+/* extra color add  */
+.color-side-button{
+    background-color: rgb(243, 40, 40);
+    color: white;
+}
+/* grid for video   */
+.for-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 130px;
+}
+/* all video part  */
+.videos{ 
+    padding-bottom: 30px;
+    margin: 0px -5px 40px 30px;
+    box-shadow: 0 3px 3px 3px rgb(239, 237, 237);
+    border-radius: 10px;   
+}
+.country_vs_country{
+    display: flex;
+    padding: 40px 40px 20px 40px;
+}
+.country_vs_country p{
+    padding: 20px 10px;
+    font-weight: 700;
+}
+
+.thumnail-info{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.thumnail-time{
+    text-align: center;
+}
+/* footer part  */
+.footer-part{
+    width: 100%;
+    height: 400px;
+    margin-top: 110px;
+    background-color: rgb(26, 26, 26);
+}
+.footer-part h1{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+    padding-top: 110px;
+}
+/* footer border  */
+.border{
+    border-bottom: 1px solid rgb(74, 74, 74);
+    margin: 50px 120px 40px 120px ;
+}
+/* footer nav  */
+nav ul{
+    text-align: center;
+}
+nav ul li {
+    color: rgb(184, 183, 183);
+    display: inline;
+    margin-left: 50px;
+    cursor: pointer;
+}
+/* footer icon css  */
+.icon-link{
+    text-align: center;
+    margin-top: 50px;
+}
+.icon-link a{
+    font-size: 30px;
+    color: white;
+    margin-left: 50px;
+}
+/* The End  */
+
+
+
+
+
+/* ---------Thank You--------  */
